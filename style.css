@@ -36,7 +36,7 @@ body::before {
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 15s linear infinite;
-    animation: slideleft 1s linear forwards;
+    animation: slideright 1s linear forwards;
 }
 
 .content p {
@@ -67,6 +67,7 @@ body::before {
     margin-right: 5px;
 }
 
+
 .btn-2{
     border: 1px solid #121111;
     padding: 7px 40px;
@@ -76,7 +77,6 @@ body::before {
     animation-delay: 3s;
     opacity: 0;
 }
-
 
 @keyframes slideright {
 
@@ -94,10 +94,6 @@ body::before {
 
 .slide-left {
     animation: slideleft 1s linear forwards;
-}
-
-.slide-right {
-    animation: slideright 1s linear forwards;
 }
 
 @keyframes slideleft {
