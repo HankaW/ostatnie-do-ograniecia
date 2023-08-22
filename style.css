@@ -1,12 +1,127 @@
 body::before {
-    display:block;
+    display: block;
     content: '';
     height: 60px;
 }
-@media(min-width: 768px)
-{
+
+@media(min-width: 768px) {
     .new-input {
         width: 85%;
     }
+}
+
+.content h1 {
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 650;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 15s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.content h2 {
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: 650;
+    margin-left: -10px;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 15s linear infinite;
+    animation: slideleft 1s linear forwards;
+}
+
+.content p {
+    max-width: 5000px;
+    line-height: 30px;
+    opacity: 0;
+   
+
+}
+.links {
+    margin-top: 30px;
+    opacity: 0;
+    
+
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.btn {
+    border: 1px solid #076868;
+    padding: 7px 40px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.btn-2{
+    border: 1px solid #121111;
+    padding: 7px 40px;
+    border-radius: 20px;
+    margin-right: 5px;
+    animation: slideleft 1s linear forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+
+@keyframes slideright {
+
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+
+    }
+}
+
+.slide-left {
+    animation: slideleft 1s linear forwards;
+}
+
+.slide-right {
+    animation: slideright 1s linear forwards;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+
+    }
+}
+
+p.slide-left{
+    animation-delay: 1s;
+
+}
+.links.slide-left{
+    animation-delay: 2s;
+}
+
+.btn-2.slide-right{
+    animation-delay: 2s;
 }
 

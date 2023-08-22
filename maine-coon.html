@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,14 +11,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
         integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="home.html">Home</a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -30,6 +31,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="budowa_kota.html"
                                 class="btn btn-outline-info btn-lg" target="_self">Anatomia kota</a>
+                               
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="ciekawostki.html"
@@ -55,176 +57,548 @@
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-info" type="submit">Search</button>
                     </form>
+                    
                 </div>
             </div>
         </nav>
     </header>
 
-    <section>
-        <div class="text-light bg-dark text-center p-4">
-            <h1>Kot Maine Coon</h1>
+
+    <section class="bg-dark text-light p-5 text-center">
+        <div class="container animate__animated animate__slideInLeft">
+            <div class="row text-center">
+                <div class="col-md ">
+                    <h1>Pierwsza strona - <span class="text-info"> 09.08.2023</h1></span>
+                    <p class="lead my-3">
+                        <Strong>Pierwsza próbna strona o kotach :)</Strong>
+                    </p>
+                    <p class="lead my-5">
+                        Kot domowy – udomowiony gatunek ssaka z rzędu drapieżnych z rodziny kotowatych. Koty zostały
+                        udomowione około 9500 lat temu i są
+                        obecnie najpopularniejszymi zwierzętami domowymi na świecie. Gatunek ten prawdopodobnie
+                        pochodzi od kota nubijskiego, przy czym w Europie krzyżował się ze żbikiem.
+                    </p>
+                    </p>
+                    <a href="dowiedz_sie_wiecej.html" class="btn btn-outline-info btn-lg text-light"
+                        target="_self">Dowiedz się
+                        więcej</a>
+                </div>
+                <div class="col-md-5 d-none d-sm-block">
+                    <img src="cat4.png" class="rounded float-left" alt="...">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-info text-dark p-3">
+        <div class="container animate__animated  animate__slideInRight">    
+        <div class="contianer">
+            <div class="col-8 text-center">
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <h3 class="bi bi-envelope-at" class="mb-3 mb-md-2"> Zaloguj się do Newsletter'a</h3>
+
+
+                    <div class="col-4 text-center">
+                        <div class="input-group new-input">
+                            <button class="btn btn-outline-dark btn-sm" data-bs-toggle="modal" data-bs-target="#enroll"
+                                type="button">
+                                <h3 class="bi bi-hand-index" class="mb-3 mb-md-2"> Zaloguj się</h3>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <section class="p-5">
+   
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light py-1">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-book"></i>
+                            </div>
+                            <h4 class="card-title">
+                                Czy wiedziałeś, że...
+                            </h4>
+                            <p class="card-text">
+                                Koty są najbardziej popularnym zwierzęciem domowych na świecie. Jest ponad 500 milionów
+                                kotów domowych
+                            </p>
+                            <a href="ciekawostki.html" class="btn btn-info">
+                                <i class="bi bi-check-all"> </i>
+                                Dowiedz się więcej
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-info text-dark py-3">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-lightbulb"></i>
+                            </div>
+                            <h4 class="card-title">
+                                Czy wiedziałeś, że...
+                            </h4>
+                            <p class="card-text px-1">
+                                Nasze ulubione pupile śpią średnio od 13 do 14 godzin dziennie
+                            </p>
+                            <a href="ciekawostki.html" class="btn btn-dark">
+                                <i class="bi bi-check-all"> </i>
+                                Dowiedz się więcej
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light py-3">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-heart"></i>
+                            </div>
+                            <h4 class="card-title">
+                                Czy wiedziałeś, że...
+                            </h4>
+                            <p class="card-text px-1">
+                                Serca kotów biją dwa razy szybciej niż u ludzi. Serce kota ma 110-140 uderzeń na minutę
+                            </p>
+                            <a href="ciekawostki.html" class="btn btn-info">
+                                <i class="bi bi-check-all"> </i>
+                                Dowiedz się więcej
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="p-5">
         <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-5">
-                    <h1>
-                        <i class="bi bi-mortarboard"></i> Historia i pochodzenie:
-                    </h1>
-                    <p class="py-3">
-                        Po dziś dzień prawdziwe pochodzenie maine coona pozostaje nie do końca wyjaśnione. Według
-                        niektórych źródeł historia rasy miałaby sięgać czasów, gdy pierwsze europejskie okręty
-                        przybijały do brzegów Ameryki Północnej. Ze statków uciekły koty, które następnie znalazły
-                        schronienie w pobliskich lasach.
-
-                        Z biegiem lat potomkowie tych zwierząt dostosowali się do tamtejszych ciężkich warunków
-                        klimatycznych – stąd ich duży rozmiar, mocna budowa ciała, gęste futro itp. Następnie
-                        skrzyżowały się z osobnikami innych zamorskich ras. W XIX wieku najpiękniejszych potomków tych
-                        właśnie krzyżówek zaprezentowano publiczności podczas wystaw i tam maine coony zrobiły furorę.
-
-                        Różne źródła podają najrozmaitsze hipotezy na temat pochodzenia rasy. Bez względu na to, maine
-                        coon bezsprzecznie odniósł wielki sukces podczas pierwszych pokazów kotów w latach 1860-1861, a
-                        także później, na pierwszych profesjonalnych wystawach. Wkrótce jednak w Ameryce pojawiły się
-                        pierwsze persy i syjamy, które całkowicie odebrały maine coonom palmę pierwszeństwa. Trzeba było
-                        czekać aż do lat pięćdziesiątych XX wieku, żeby maine coon wrócił do łask. Od tamtej pory rasa
-                        wspaniale się rozwija… ku wielkiej przyjemności jej wielbicieli!
-                    </p>
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="main2.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="main4.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="main3.jpg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only"></span>
-                        </a>
-                    </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="icons9-calendar-100.png" class="img-fluid d-none d-sm-block" width="65%" alt="">
                 </div>
+                <div class="col-md-9">
+                    <h2><strong>Weź udział w szkoleniach dla kotów!</strong></h2>
+                    <p class="lead">
+                        Zajęcia będą prowadzone przez lekarzy weterynarii oraz specjalistów z zakresu psychologii,
+                        etologii i felinoterapii posiadających wieloletnie doświadczenie w pracy klinicznej i terapii
+                        zaburzeń zachowania zwierząt, a także pracowników naukowych PAN oraz SGGW. Serdecznie zapraszamy
+                        wszystkie zainteresowane osoby.
+                        <li class="lead">Czas trwania: 160h</li>
+                        <li class="lead">Forma zajęć: wykłady i warsztaty</li>
+                    </p>
+                    <a href="szkolenia_dla_kotow.html" class="btn btn-info mt-3 bi bi-chevron-double-right"
+                        class="bi bi-chevron-double-right" target="_self"> Czytaj dalej</a>
+                    </a>
+                </div>
+            </div>
+        </div>
 
-                <div class="col-6">
-                    <div class="row">
-                        <div class="col-7">
-                            <h1>
-                                <i class="bi bi-person-bounding-box"></i> Wygląd:
-                            </h1>
-                            <p class="py-3">
-                                <Strong>Wielkość:</Strong> ok. 20-40 cm <br>
-                                <strong>Waga:</strong> 4-9 kg <br>
-                                <strong>Maść:</strong> Czarna, Biała, Ruda, Niebieska/Szara<br>
-                                <strong>Rodzaj szaty:</strong> Długa <br>
-                                <strong>Kolor oczu:</strong> Niebieskie, Zielone, Żółte/Złote, Różnookie<br>
-                            </p>
-                        </div>
-                        <div class="col">
-                            <img src="main1.jpg" class="d-none d-sm-block" alt="..." width="90%">
-                        </div>
+    </section>
+
+    <section class="p-5 bg-dark text-light">
+        <div class="container animate__animated  animate__slideInRight">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-9">
+                    <h2><strong>Poznaj rasy kotów!</strong></h2>
+                    <p class="lead">
+                        Kot uważany jest za kota danej rasy, jeżeli spełnia wszystkie cechy określone dla tej rasy. Na
+                        świecie istnieją różne organizacje rejestrujące i poświadczające rodowody, jednak tylko te
+                        zrzeszone w <span class="text-info"> World Cat Congress</span> wystawiają w pełni honorowane na
+                        całym świecie rodowody. <span class="text-info">Tylko trzy procent kotów to koty rasowe</span>,
+                        a jeszcze mniejszy odsetek z nich nadaje się do prezentacji na wystawach. Rodowód zaświadcza, że
+                        kot należy do kotów rasy przez pokazanie co najmniej czterech pokoleń hodowlanych. Sama
+                        koncepcja ras kotów jest stosunkowo nowa. Jeszcze dwieście lat temu koty nie były klasyfikowane,
+                        <span class="text-info">dziś znanych jest około sto ras kotów</span>. Odmiana kota domowego może
+                        być również określona przez właściwości inne niż rasa, takie jak: kategoria, odmiana i grupa
+                        barwna.
+                        </li>
+                    </p>
                     </div>
-                    <div>
-                        <p>
-                        <h1>
-                            <i class="bi bi-vector-pen"></i> Charakter:
-                        </h1>
-                        <p class="py-3">
-                            Maine coon jest <strong><span class="text-success">zrównoważony, przyjazny i towarzyski</span></strong>  – łatwo nawiązuje kontakt z ludźmi.
-                            Mimo sporych gabarytów jest <strong><span class="text-success">łagodny i delikatny</span></strong>. Nie ma dla niego znaczenia,
-                            gdzie mieszka, dlatego łatwo adaptuje się do nowych warunków. Towarzyszy swojemu człowiekowi we wszystkich
-                            codziennych czynnościach i najchętniej wykonywałby z nim wszelkie obowiązki.
-
-                            Maine coon jest <strong><span class="text-success">wesoły, tolerancyjny, cierpliwy i wyrozumiały</span></strong>  – sprawdzi się jako przyjaciel
-                            dla nieco starszych dzieci i dla seniorów. Kot rasy maine coon jest też łasy na pieszczoty i
-                            <strong><span class="text-success">uwielbia wspólne zabawy</span></strong>. Mimo że nie dopomina się ich nachalnie, to należy mu poświęcać
-                            czas, by był szczęśliwy. Cierpiąc z powodu samotności, traci swój wrodzony optymizm. Maine
-                            coon jest  <strong><span class="text-success">inteligentny</span></strong>, można nauczyć go wielu sztuczek. Lubi być w centrum zainteresowania,
-                            a wizyty gości są dla niego doskonałą okazją do popisywania się i otrzymania dodatkowej
-                            porcji pieszczot.
-                         
-
-                        </p>
-                    </div>
-
-                    <div class="py-2">
-                        <p>
-                        <h1>
-                            <i class="bi bi-piggy-bank"></i> Cena:
-                        </h1>
-                        <p class="py-3">
-                            Cena maine coona wynosi <strong><span class="text-success">średnio między 1800 a 3000
-                                    zł</span></strong> (zdarzają się też osobniki droższe).
-                            Cena kocięcia jest uwarunkowana takimi czynnikami jak tytuły zdobyte przez rodziców, renoma
-                            hodowli, przeznaczenie kociaka („na kolana” czy do dalszej hodowli), a nawet jego wiek.
-
-                            Jeśli chodzi o miesięczny koszt utrzymania, wynosi on około 150-200 zł, które wystarczą na
-                            zapewnienie wysokiej jakości karmy, a także żwirku i innych niezbędnych akcesoriów. Nie
-                            zapominajmy ponadto o wizytach u lekarza weterynarii – to dodatkowe koszty, ale ponoszone
-                            sporadycznie.
-                        </p>
-                    </div>
+                <div class="col-md">
+                    <img src="cats.png" class="img-fluid d-none d-sm-block" width="100%" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="p-1">
+    <section id="questiond" class="p-5">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>
-                        <i class="bi bi-camera"></i> Galeria zdjęć:
-                    </h1>
-                    <div class="row py-4">
-                        <div class="col">
-                            <a href="main5.jpg" target="_self">
-                                <img src="main5.jpg" alt="..." width="100%">
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="main6.jpg" target="_self">
-                                <img src="main6.jpg" alt="..." width="88%">
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="main7.jpg" target="_self">
-                                <img src="main7.jpg" alt="..." width="95%">
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="main8.jpg" target="_self">
-                                <img src="main8.jpg" alt="..." width="101%">
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="main9.jpg" target="_self">
-                                <img src="main9.jpg" alt="..." width="95%">
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="main10.jpg" target="_self">
-                                <img src="main10.jpg" alt="..." width="102%">
-                            </a>
+            <h2 class="text.center mb-4">Często zadawane pytania: </h2>
+            <div class="accordion accordion-flush" id="questions">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one">
+                            Dlaczego koty lubią pudełka?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Chcesz zwabić kota? Postaw na środku pokoju pudełko, usiądź wygodnie i poczekaj –
+                            zmaterializuje się wewnątrz raczej prędzej niż później. To urocze, zabawne, a ponadto
+                            intrygujące – o co chodzi z tymi kartonami? Cóż, tak działa koci instynkt, który dyktuje
+                            mruczkowi sympatię do ciasnych przestrzeni, w których można się ukryć przed innymi
+                            drapieżnikami i jednocześnie obserwować z nich otoczenie.
                         </div>
                     </div>
                 </div>
-
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two">
+                            Jak długo żyją koty?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Każdy z nas ma nadzieję, że jego podopieczny będzie towarzyszył mu przez wiele lat.
+                            Jednocześnie interesuje nas, czego dokładnie możemy się w tej kwestii spodziewać, dlatego
+                            pytania o koty zahaczają również o długość ich życia. Jaka ona jest? Domowe koty
+                            niewychodzące dożywają średnio od 14 do 18 lat, choć oczywiście zdarzają się wyjątki w
+                            postaci bardzo długowiecznych mruczków.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three">
+                            Dlaczego koty mruczą?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Numer jeden na liście i nic dziwnego – wciąż nie wiemy wszystkiego o tych hipnotyzujących
+                            dźwiękach. Kocie mruczenie powszechnie kojarzymy z zadowoleniem zwierzaka, ale udowodniono,
+                            że może ono pojawiać się także w stresujących chwilach.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-four">
+                            Dlaczego koty ugniatają?
+                        </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li> Odprężenie - kot po prostu się relaksuje</li>
+                                <li> Wspomnienia - przywołuje miłe wspomnienia z przeszłości, kojarzące się z poczuciem
+                                    bezpieczeństwa</li>
+                                <li> Przynależność - gdy kot cię ugniata, jednocześnie nanosi na ciebie swój zapach,
+                                    zaznaczając w ten sposób, że do niego przynależysz</li>
+                                <li> Grunt pod drzemkę - ugniatanie przez kota jakiejś powierzchni często bywa po prostu
+                                    wstępem do smacznej drzemki</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-five">
+                            Dlaczego koty nas liżą?
+                        </button>
+                    </h2>
+                    <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li> Higiena - główny powód to higiena. Język kota jest bardzo ostry, z „haczykami”,
+                                    przez co lizanie działa jak szczotkowanie</li>
+                                <li> Relaks - lizanie jest też formą relaksu – robią to po obudzenia się, jedzeniu,
+                                    przed pójściem spać</li>
+                                <li> Termoregulacja - koty nie pocą się tak, jak my, muszą ochłodzić się w inny sposób –
+                                    nawilżając sierść śliną, ta parując, przynosi ochłodę</li>
+                                <li> Zapach - lizanie ma też na celu pozbycie się obcego zapachu, nawet jeśli to tylko
+                                    zapach właściciela</li>
+                                <li> Choroba - koty bardzo często liżą jakieś miejsce, gdzie czują ból, lub zostały
+                                    zaatakowane przez pchły</li>
+                                <li> Miłość i poczucie bezpieczeństwa - Koty w naturze są raczej samotnikami, ale jeśli
+                                    formują już grupę – dotyk językiem wyraża akceptację i sympatię</li>
+                                <li> Zapach - lizanie ma też na celu pozbycie się obcego zapachu, nawet jeśli to tylko
+                                    zapach właściciela :)</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
 
     </section>
 
+    <section id="instructors" class="p-4 bg-dark">
+        <div class="container">
+            <h1 class="text-center text-light mb-5"><strong><i class="bi bi-balloon-heart"></i> Zaadoptuj kotka!!! <i
+                        class="bi bi-balloon-heart"></i></strong></h1>
+            <div class="row g-6">
+                <div class="col-md-2 col-lg-2 g-4">
+                    <div class="card bg-info px-1">
+                        <div class="card-body text-center">
+                            <img src="ad1.jpg" class="rounded-circle mb-3" width="100%" alt="">
+                            <h3 class="card-title mb-1">Puszek</h3>
+                            <p class="card-text gx-5">
+                            <div class="row">
+                                <i class="bi bi-calendar-heart"> 22.07.2020</i>
+                                <i class="bi bi-geo-alt"> Warszawa</i>
+                                <i class="bi bi-telephone"> 516 854 996</i>
+                                <a href="puszek.html" class="btn btn-dark gy-3">
+                                    <i class="bi bi-eye"> </i>
+                                    Zobacz
+                                </a>
+                                </i>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-lg-2 g-4">
+                    <div class="card bg-info px-1 mb-1">
+                        <div class="card-body text-center">
+                            <img src="ad2.jpg" class="rounded-circle mb-3" width="90%" alt="">
+                            <h3 class="card-title mb-1">Abi</h3>
+                            <p class="card-text gx-5">
+                            <div class="row">
+                                <i class="bi bi-calendar-heart"> 01.08.2023</i>
+                                <i class="bi bi-geo-alt"> Toruń</i>
+                                <i class="bi bi-telephone"> 412 445 632</i>
+                                <a href="abi.html" class="btn btn-dark gy-3">
+                                    <i class="bi bi-eye"> </i>
+                                    Zobacz
+                                </a>
 
+                                </i>
+                            </div>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-lg-2 g-4">
+                    <div class="card bg-info px-1">
+                        <div class="card-body text-center">
+                            <img src="ad3.jpg" class="rounded-circle mb-3" width="100%" alt="">
+                            <h3 class="card-title mb-1">Daisy</h3>
+                            <p class="card-text gx-5">
+                            <div class="row">
+                                <i class="bi bi-calendar-heart"> 29.12.2020</i>
+                                <i class="bi bi-geo-alt"> Bydgoszcz</i>
+                                <i class="bi bi-telephone"> 996 887 325</i>
+                                <a href="daisy.html" class="btn btn-dark gy-3">
+                                    <i class="bi bi-eye"> </i>
+                                    Zobacz
+                                </a>
+                                </i>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-lg-2 g-4">
+                    <div class="card bg-info px-1">
+                        <div class="card-body text-center">
+                            <img src="ad5.jpg" class="rounded-circle mb-3" width="90%" alt="">
+                            <h3 class="card-title mb-1">Mruczek</h3>
+                            <p class="card-text gx-5">
+                            <div class="row">
+                                <i class="bi bi-calendar-heart"> 05.09.2016</i>
+                                <i class="bi bi-geo-alt"> Gdynia</i>
+                                <i class="bi bi-telephone"> 118 963 741</i>
+                                <a href="mruczek.html" class="btn btn-dark gy-3">
+                                    <i class="bi bi-eye"> </i>
+                                    Zobacz
+                                </a>
+
+                                </i>
+                            </div>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-lg-2 g-4">
+                    <div class="card bg-info px-1">
+                        <div class="card-body text-center">
+                            <img src="ad6.jpg" class="rounded-circle mb-4" width="100%" alt="">
+                            <h3 class="card-title mb-1">Gapcia</h3>
+                            <p class="card-text gx-5">
+                            <div class="row">
+                                <i class="bi bi-calendar-heart"> 23.01.2017</i>
+                                <i class="bi bi-geo-alt"> Poznań</i>
+                                <i class="bi bi-telephone"> 152 761 994</i>
+                                <a href="gapcia.html" class="btn btn-dark gy-3">
+                                    <i class="bi bi-eye"> </i>
+                                    Zobacz
+                                </a>
+
+                                </i>
+                            </div>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-lg-2 g-4">
+                    <div class="card bg-info px-1">
+                        <div class="card-body text-center">
+                            <img src="ad4.jpg" class="rounded-circle mb-3" width="100%" alt="">
+                            <h3 class="card-title mb-1">Łapka</h3>
+                            <p class="card-text gx-5">
+                            <div class="row">
+                                <i class="bi bi-calendar-heart"> 22.07.2020</i>
+                                <i class="bi bi-geo-alt"> Kraków</i>
+                                <i class="bi bi-telephone"> 639 285 174</i>
+                                <a href="łapka.html" class="btn btn-dark gy-3">
+                                    <i class="bi bi-eye"> </i>
+                                    Zobacz
+                                </a>
+                                </i>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="p-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-9">
+                    <h2 class="text-center mb-4"><i class="bi bi-clock-fill"> Kontakt oraz godziny otwarcia: </i></h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <p class="lead">
+                                <i class="bi bi-house-fill">
+                                    <span class="fw-bold text-dark">Centralna lokalizacja: </span> ul. Szwajcarska 4, 74-655
+                                     Zielona Góra , woj. Lubuskie
+                                </i>
+                            </p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="lead">
+                                <i class="bi bi-telephone-fill">
+                                    <span class="fw-bold text-dark">Telefon: </span> 885 465 998
+                                </i>
+                            </p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="lead">
+                                <i class="bi bi-envelope-fill">
+                                    <span class="fw-bold text-dark"> E-mail: </span> schronisko.kontakt@gmail.com
+                                </i>
+                            </p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="lead">
+                                <i class="bi bi-facebook">
+                                    <span class="fw-bold text-dark"> Facebook: </span> Schronisko-Pomagam-Zielona-Góra
+                                </i>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 align-self-start p-3">
+                    <li class="list-group">
+                        <p class="lead text-center text-dark mb-2">
+
+                            <span class="lead text-dark"> </span>
+                            </i>
+                        </p>
+                    </li>
+                    <tbody>
+                        <div class="lead text-center text-dark">
+
+                            <p>
+                                <i class="bi bi-arrow-return-right">
+                                    <span class="fw-bold">pon -pt: </span> 8.00-16.00
+                                </i>
+                            </p>
+
+                            <p>
+                                <i class="bi bi-arrow-return-right">
+                                    <span class="fw-bold">sobota: </span> 8.00-14.00
+                                </i>
+                            </p>
+
+                            <p>
+                                <i class="bi bi-arrow-return-right">
+                                    <span class="fw-bold">niedziela: </span> 8.00-10.00
+                                </i>
+                            </p>
+                        </div>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-3 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; Frontend Bootstrap </p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-3">
+                <i class=" text-info bi-arrow-clockwise h1"></i>
+            </a>
+        </div>
+    </footer>
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Zaloguj się</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">
+
+                    <form>
+                        <div class="mb-2">
+                            <label for="first-name" class="col-form-label">
+                                Imię:
+                            </label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="first-name" class="col-form-label">
+                                Nazwisko:
+                            </label>
+                            <input type="text" class="form-control" id="second-name">
+                        </div>
+                        <div class="mb-2">
+                            <label for="first-name" class="col-form-label">
+                                E-mail:
+                            </label>
+                            <input type="text" class="form-control" id="e-mail">
+                        </div>
+                        <div class="mb-2">
+                            <label for="first-name" class="col-form-label">
+                                Hasło:
+                            </label>
+                            <input type="text" class="form-control" id="password-name">
+                        </div>
+                    </form>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zamknij</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Potwierdź</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
