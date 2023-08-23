@@ -10,6 +10,11 @@ body::before {
     }
 }
 
+.navbar {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .content h1 {
     font-size: 80px;
     line-height: 80px;
@@ -22,43 +27,23 @@ body::before {
     background-position: 0 0;
     animation: back 15s linear infinite;
 }
-@keyframes back{
-    100%{
+
+@keyframes back {
+    100% {
         background-position: 2000px 0;
     }
 }
 
-.content h2 {
-    font-size: 30px;
-    line-height: 80px;
-    font-weight: 650;
-    margin-left: -10px;
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: back 15s linear infinite;
-    animation: slideright 1s linear forwards;
-}
-
 .content p {
-    font-size: 18px;
+    font-size: 20px;
     max-width: 5000px;
-    line-height: 30px;
+    line-height: 35px;
     opacity: 0;
-   
-
 }
+
 .links {
-    margin-top: 30px;
+    margin-top: 20px;
     opacity: 0;
-    
-
-}
-
-.links a {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-
 }
 
 .btn {
@@ -69,33 +54,11 @@ body::before {
 }
 
 
-.btn-2{
-    border: 1px solid #121111;
-    padding: 7px 40px;
-    border-radius: 20px;
-    margin-right: 5px;
-    animation: slideleft 1s linear forwards;
-    animation-delay: 3s;
-    opacity: 0;
-}
-
-@keyframes slideright {
-
-    0% {
-        transform: translate(100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translate(0px);
-        opacity: 1;
-
-    }
-}
 
 .slide-left {
     animation: slideleft 1s linear forwards;
 }
+
 
 @keyframes slideleft {
     0% {
@@ -110,15 +73,118 @@ body::before {
     }
 }
 
-p.slide-left{
+p.slide-left {
     animation-delay: 1s;
 
 }
-.links.slide-left{
+
+.links.slide-left {
     animation-delay: 2s;
 }
 
-.btn-2.slide-right{
+.btn-2.slide-left {
     animation-delay: 2s;
 }
 
+.zdjkotglowna.slide-left {
+    animation-delay: 0s;
+    opacity: 0;
+}
+
+.przypo {
+    animation: wiggle 3s linear infinite;
+    animation-delay: 3s;
+}
+
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-6deg);
+    }
+
+    20% {
+        transform: rotateZ(4deg);
+    }
+
+    25% {
+        transform: rotateZ(-3deg);
+    }
+
+    30% {
+        transform: rotateZ(4deg);
+    }
+
+    35% {
+        transform: rotateZ(-2deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+.container-1 {
+    position: static;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 100;
+    
+}
+
+.container-1 h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-1 a{
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.container-1 p{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+}
+.container-1 i{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;400;700&display=swap');
+
+
+.hidden{
+opacity: 0;
+filter: blur(5px);
+transform: translateX(-100%);
+transition: all 1s;
+}
+
+.show{
+ opacity: 1;
+ filter: blur(0);
+ transform: translateX(0);
+}
+
+.hit{
+opacity: 0;
+filter: blur(5px);
+transform: translateX(100%);
+transition: all 2s;
+
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+   }
+   
