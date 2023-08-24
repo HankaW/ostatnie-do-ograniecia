@@ -1,0 +1,45 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px) {
+    .new-input {
+        width: 85%;
+    }
+}
+
+.navbar {
+    font-size: 20px;
+    font-weight: 400;
+}
+.wjazd {
+    animation: slide-right 2s linear forwards;
+}
+
+@keyframes slide-right {
+    0% {
+        -webkit-transform: translateX(100%);
+        transform: translateX(-60%)
+    }
+
+    100% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(100px)
+    }
+}
+
+
+.slide-right {
+    -webkit-animation: slide-right .5s cubic-bezier(.25, .46, .45, .94) both;
+    animation: slide-right .5s cubic-bezier(.25, .46, .45, .94) both
+}
+
+.container-2{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 10px 10px;
+}

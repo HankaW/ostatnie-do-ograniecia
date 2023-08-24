@@ -27,3 +27,4 @@ if(ent.isIntersecting)
 
 const hitElements = document.querySelectorAll('.hit');
 hitElements.forEach((el) => obs.observe(el));
+

@@ -30,7 +30,7 @@ body::before {
 
 @keyframes back {
     100% {
-        background-position: 2000px 0;
+        background-position: 1800px 0;
     }
 }
 
@@ -131,9 +131,11 @@ p.slide-left {
 
 .container-1 {
     position: static;
+    border-radius: 50px;
     font-size: 20px;
     line-height: 30px;
     font-weight: 100;
+  
     
 }
 
@@ -147,6 +149,7 @@ p.slide-left {
     font-size: 20px;
     border-radius: 5px;
     font-weight: 400;
+    border-radius: 30px;   
 }
 
 .container-1 p{
@@ -158,6 +161,10 @@ p.slide-left {
     font-size: 60px;
     font-weight: 400;
 }
+.zaok{
+    position: static;
+    border-radius: 30px;   
+}
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;400;700&display=swap');
 
@@ -166,7 +173,7 @@ p.slide-left {
 opacity: 0;
 filter: blur(5px);
 transform: translateX(-100%);
-transition: all 1s;
+transition: 1s;
 }
 
 .show{
@@ -179,7 +186,7 @@ transition: all 1s;
 opacity: 0;
 filter: blur(5px);
 transform: translateX(100%);
-transition: all 2s;
+transition: 2s;
 
 }
 .show{
@@ -188,3 +195,41 @@ transition: all 2s;
     transform: translateX(0);
    }
    
+  
+  .textanime p {
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid rgb(0, 0, 0); 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s linear infinite,
+      blink-caret 5s linear infinite;
+  }
+  
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(39, 37, 37) }
+  }
+
+  #image {
+    background-image: url('icons/cat4.png');
+    background-size: 490px 490px;
+    width: 480px;
+    height: 480px;
+ }
+ 
+ #image:hover{
+   background: url("icons/cat4-kopia.png");
+   background-size: 490px 490px;
+   width: 480px;
+   height: 480px;
+}
+
