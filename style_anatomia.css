@@ -1,0 +1,52 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px) {
+    .new-input {
+        width: 85%;
+    }
+}
+
+.navbar {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-1{
+    line-height: 70px;
+    font-weight: 550;
+}
+
+.pulse {
+    animation: pulse 2.5s infinite;
+    margin-top: 5px;
+    animation-name: pulse;
+  }
+      
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+    }
+  }
+      
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

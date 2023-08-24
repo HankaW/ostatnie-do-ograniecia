@@ -15,7 +15,7 @@ body::before {
     font-weight: 400;
 }
 .wjazd {
-    animation: slide-right 2s linear forwards;
+    animation: slide-right 1s linear forwards;
 }
 
 @keyframes slide-right {

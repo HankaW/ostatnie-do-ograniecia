@@ -13,6 +13,7 @@ if(entry.isIntersecting)
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
+
 const obs = new IntersectionObserver((en)=>{
     en.forEach((ent)=> {
 console.log(ent)
