@@ -153,7 +153,6 @@ window.addEventListener('load', function () {
         
         }
         draw(context) {
-           
         }
     }
 
